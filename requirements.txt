@@ -2,3 +2,4 @@
 # if you are running the default variants (main.py, debugger.py, etc), you do not need to install these requirements
 openai
 tiktoken
+anyio>=4.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
